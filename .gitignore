@@ -1,0 +1,71 @@
+# Python backend (app/)
+app/__pycache__/
+.pytest_cache/
+app/*.py[cod]
+app/*.pyo
+app/*.pyd
+app/*.sqlite3
+app/*.db
+app/*.env
+app/venv/
+venv/
+env/
+ENV/
+app/*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.egg
+*.log
+.coverage
+.cache
+.pytest_cache/
+.pytest_cache/*
+
+# Root Python files
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.egg
+*.log
+.coverage
+.cache
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Frontend (frontend/)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+coverage-final.json
+lcov-report/
+
+# Temporary files
+*.tmp
+*.temp
